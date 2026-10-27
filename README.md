@@ -1,11 +1,11 @@
-# Daily OK website
+# sitexuk.github.io
 
-The public website for the Daily OK app, served by GitHub Pages at https://sitexuk.github.io
+The root of https://sitexuk.github.io: a small page linking to each app's own site.
 
-- `index.html`: home page
-- `privacy.html`: privacy policy (linked from the app and the App Store)
-- `support.html`: support page and common questions
+- `index.html`: the list of apps
+- `dailyok/`: the **Daily OK** website (home, `privacy.html`, `support.html`), served at https://sitexuk.github.io/dailyok/
+- `privacy.html`, `support.html`: redirects from Daily OK's old addresses to `dailyok/`, so older links keep working
 
-This repo is **Daily OK only**. Furbrain's site lives at https://sitexuk.github.io/furbrain-site/
-(its own repo, with its own pages and support email furbrain.help@icloud.com). Don't add Furbrain pages,
-links or a `furbrain-site/` folder here: a folder with that name would clash with Furbrain's site.
+Each app keeps its own pages, styles and support email. Furbrain's site is a separate repo served at
+https://sitexuk.github.io/furbrain-site/ (support: furbrain.help@icloud.com). Don't add a `furbrain-site/` folder here:
+it would clash with Furbrain's site.
